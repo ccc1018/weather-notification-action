@@ -44,7 +44,7 @@ jobs:
 
     steps:
       - name: Send Weather Notification
-        uses: xun082/weather-notification-action@v2.3
+        uses: ccc1018/weather-notification-action@v1.0.1
         with:
           # 天气API配置
           amap_api_key: ${{ secrets.AMAP_API_KEY }}
