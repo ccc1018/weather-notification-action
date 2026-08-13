@@ -18,7 +18,7 @@ jobs:
           amap_api_key: ${{ secrets.AMAP_API_KEY }}
 
           # 城市配置
-          city: ${{ github.event.inputs.city }}
+          city: ${{ secrets.CITY }}
 
           # 邮件服务器配置
           smtp_host: "smtp.qq.com"
@@ -27,7 +27,7 @@ jobs:
           smtp_pass: ${{ secrets.SMTP_PASS }}
 
           # 收件人邮箱
-          recipient_emails: ${{ github.event.inputs.emails }}
+          recipient_emails: ${{secrets.RECIPIENT_EMAILS }}
 
           # 可选配置
           sender_name: "天气助手"
