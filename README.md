@@ -1,5 +1,5 @@
 # 🌤️ Weather Notification Action
-[![GitHub Release](https://img.shields.io/github/v/release/ccc1018/weather-notification-action)](https://github.com/ccc1018/weather-notification-action/releases
+[![GitHub Release](https://img.shields.io/github/v/release/ccc1018/weather-notification-action)](https://github.com/ccc1018/weather-notification-action/releases)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Weather%20Notification-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAM6wAADOsB5dZE0gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAERSURBVCiRhZG/SsMxFEafKoEMHuxg6yDYyYMIhgO7m0YdOjgH8eygK+DC4FYU+nHk=)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
