@@ -1,6 +1,5 @@
 # 🌤️ Weather Notification Action
-[![GitHub Release](https://img.shields.io/github/v/release/ccc1018/weather-notification-action)](https://github.com/ccc1018/weather-notification-action/releases)
-![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Weather%20Notification-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAM6wAADOsB5dZE0gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAERSURBVCiRhZG/SsMxFEafKoEMHuxg6yDYyYMIhgO7m0YdOjgH8eygK+DC4FYU+nHk=)]()
+[![GitHub Release](https://img.shields.io/github/v/release/ccc1018/weather-notification-action)](https://github.com/ccc1018/weather-notification-action/releases)![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Weather%20Notification-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAM6wAADOsB5dZE0gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAERSURBVCiRhZG/SsMxFEafKoEMHuxg6yDYyYMIhgO7m0YdOjgH8eygK+DC4FYU+nHk=)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 🔔 **使用说明**: 这是一个可复用的 GitHub Action。其他开发者可以在他们的仓库中直接使用，无需 fork 或复制代码。只需在 workflow 中引用此 Action 并传入相应参数即可。
