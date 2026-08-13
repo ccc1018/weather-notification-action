@@ -1,5 +1,5 @@
 # 🌤️ Weather Notification Action
-
+[![GitHub Release](https://img.shields.io/github/v/release/ccc1018/weather-notification-action)](https://github.com/ccc1018/weather-notification-action/releases)
 > 🔔 **使用说明**: 这是一个可复用的 GitHub Action。其他开发者可以在他们的仓库中直接使用，无需 fork 或复制代码。只需在 workflow 中引用此 Action 并传入相应参数即可。
 
 一个简洁高效的 GitHub Action，自动发送天气信息到指定邮箱。基于高德地图数据源，提供精美的 HTML 邮件模板。
@@ -78,7 +78,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Beijing Weather
-        uses: xun082/weather-notification-action@v2.3
+        uses: ccc1018/weather-notification-action@v1.0.1
         with:
           amap_api_key: ${{ secrets.AMAP_API_KEY }}
           city: "北京"
@@ -92,7 +92,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Shanghai Weather
-        uses: xun082/weather-notification-action@v2.3
+        uses: ccc1018/weather-notification-action@v1.0.1
         with:
           amap_api_key: ${{ secrets.AMAP_API_KEY }}
           city: "310000" # 使用城市编码
@@ -124,7 +124,7 @@ jobs:
 
     steps:
       - name: Send Weather Notification
-        uses: xun082/weather-notification-action@v2.3
+        uses: ccc1018/weather-notification-action@v1.0.1
         with:
           amap_api_key: ${{ secrets.AMAP_API_KEY }}
           city: ${{ github.event.inputs.city }}
@@ -168,7 +168,7 @@ jobs:
 ```yaml
 - name: Send Weather Notification
   id: weather
-  uses: xun082/weather-notification-action@v2.3
+  uses: ccc1018/weather-notification-action@v1.0.1
   with:
     # ... 参数配置
 
@@ -299,7 +299,7 @@ MIT License - 查看 [LICENSE](LICENSE) 文件了解详情。
 
 如果遇到问题，请：
 
-1. 查看 [Issues](https://github.com/xun082/weather-notification-action/issues) 页面
+1. 查看 [Issues](https://github.com/ccc1018/weather-notification-action/issues) 页面
 2. 创建新的 Issue 描述问题
 3. 提供详细的错误信息和配置
 
@@ -320,8 +320,8 @@ MIT License - 查看 [LICENSE](LICENSE) 文件了解详情。
 ### 遇到问题？
 
 1. 📖 先查看 [快速开始指南](QUICK_START.md) 和 [故障排除](#故障排除)
-2. 🔍 搜索 [已知问题](https://github.com/xun082/weather-notification-action/issues)
-3. 💬 提交 [新问题](https://github.com/xun082/weather-notification-action/issues/new)
+2. 🔍 搜索 [已知问题](https://github.com/ccc1018/weather-notification-action/issues)
+3. 💬 提交 [新问题](https://github.com/ccc1018/weather-notification-action/issues/new)
 
 ### 需要帮助配置邮箱？
 
