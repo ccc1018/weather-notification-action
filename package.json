@@ -1,6 +1,6 @@
 {
   "name": "Weather-Notification-Action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "简洁高效的天气通知GitHub Action，基于高德地图数据源",
   "main": "dist/index.js",
   "scripts": {
