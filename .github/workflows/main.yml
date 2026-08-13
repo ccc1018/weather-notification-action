@@ -15,19 +15,19 @@ jobs:
         uses: ccc1018/weather-notification-action@v1.0.0
         with:
           # 天气API配置
-          amap_api_key: “783d3670d1f84408e9ec4562b6cc4ed0”
+          amap_api_key: ${{ secrets.AMAP_API_KEY }}
 
           # 城市配置
-          city: "110000"
+          city: ${{ github.event.inputs.city }}
 
           # 邮件服务器配置
           smtp_host: "smtp.qq.com"
           smtp_port: "587"
-          smtp_user: "2071138578@qq.com"
-          smtp_pass: “earbavfhuassdeij”
+          smtp_user: ${{ secrets.SMTP_USER }}
+          smtp_pass: ${{ secrets.SMTP_PASS }}
 
           # 收件人邮箱
-          recipient_emails: "2071138578@qq.com"
+          recipient_emails: ${{ github.event.inputs.emails }}
 
           # 可选配置
           sender_name: "天气助手"
